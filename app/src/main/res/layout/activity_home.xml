@@ -1,0 +1,34 @@
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="@drawable/background"
+        android:gravity="center"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <Button
+            android:text="ADD DETAILS"
+            android:id="@+id/add"
+            android:background="@drawable/button"
+            android:textColor="#ffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+        android:layout_marginTop="25dp"
+        android:text="TRAVELING MODE"
+        android:id="@+id/tr"
+        android:background="@drawable/button"
+        android:textColor="#ffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+        <Button
+            android:layout_marginTop="25dp"
+            android:text="LogOut"
+            android:id="@+id/logout"
+            android:background="@drawable/button"
+            android:textColor="#ffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
